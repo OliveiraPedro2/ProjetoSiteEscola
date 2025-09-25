@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Absolute Critics</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Externo -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img class="logo" src="img/logo.png" alt="">
+      </div>
+      <nav aria-label="principal">
+        <a href="#">Início</a>
+        <a href="#popular">Filmes Mais Populares</a>
+        <a href="#minhas">Minhas Avaliações</a>
+      </nav>
+
+      <div class="search">
+        <input id="searchInput" type="text" placeholder="Buscar filmes, atores...">
+        <button id="searchBtn">Buscar</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="carousel" aria-label="destaques">
+        <div class="carousel-header">
+          <h2>Os Clássicos!</h2>
+        </div>
+        <div class="carousel-track" id="carouselTrack"></div>
+      </section>
+
+      <section id="popular">
+        <div class="movies-header">
+          <h2>Filmes</h2>
+          <small>Mostrando resultados</small>
+        </div>
+        <div class="movies-grid" id="moviesGrid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Termos</a>
+      </nav>
+      <div class="copyright">© <span id="year"></span> CineCrítico. Todos os direitos reservados.</div>
+    </footer>
+  </div>
+
+  <!-- JS Externo -->
+  <script src="script.js"></script>
+</body>
+</html>
