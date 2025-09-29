@@ -1,13 +1,13 @@
 // Dados mock
 const movies = [
-  { id:1, title:'O Poderoso Chefão', year:1972, rating:8.7, poster:"img/poderosochefao.jpg", genres:['Ação','Drama'] },
-  { id:2, title:'Noite de Estrelas', year:2023, rating:7.9, poster:'', genres:['Romance'] },
-  { id:3, title:'Fuga Lunar', year:2025, rating:9.1, poster:'', genres:['Ficção','Aventura'] },
-  { id:4, title:'Sombras do Passado', year:2021, rating:6.4, poster:'', genres:['Thriller'] },
-  { id:5, title:'Cidade Contra o Tempo', year:2022, rating:8.2, poster:'', genres:['Ação','Sci-Fi'] },
-  { id:6, title:'O Último Ato', year:2019, rating:5.7, poster:'', genres:['Drama'] },
-  { id:7, title:'Riso Imprudente', year:2020, rating:7.3, poster:'', genres:['Comédia'] },
-  { id:8, title:'Caminho da Areia', year:2018, rating:8.9, poster:'', genres:['Drama','Histórico'] }
+  { id:1, title:'O Poderoso Chefão', year:1972, rating:9.7, poster:"img/poderosochefao.jpg", genres:['Suspense','Drama'] },
+  { id:2, title:'Interestelar', year:2014, rating:8.5, poster:'', genres:['Ficção Científica','Drama'] },
+  { id:3, title:'Filme 3', year:2025, rating:9.1, poster:'', genres:['Ficção','Aventura'] },
+  { id:4, title:'Filme 4', year:2021, rating:6.4, poster:'', genres:['Thriller'] },
+  { id:5, title:'Filme 5', year:2022, rating:1.2, poster:'', genres:['Ação','Sci-Fi'] },
+  { id:6, title:'Filme 6', year:2019, rating:5.7, poster:'', genres:['Drama'] },
+  { id:7, title:'Filme 7', year:2020, rating:7.3, poster:'', genres:['Comédia'] },
+  { id:8, title:'Filme 8', year:2018, rating:8.9, poster:'', genres:['Drama','Histórico'] }
 ];
 
 // Cria card de filme
